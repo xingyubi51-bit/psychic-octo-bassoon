@@ -11,7 +11,7 @@ import re
 import sys
 
 # ---------------- 可调参数 ----------------
-MIN_CHARS, MAX_CHARS = 2700, 3400          # 章字数范围（不含空白与标题）
+MIN_CHARS, MAX_CHARS = 2200, 3400          # 章字数范围（不含空白与标题）；下限由2700改为2200
 AVG_MIN, AVG_MAX = 20, 60                  # 段均字数
 PARA_HARD_MAX = 95                         # 任一段达到该字数即 FAIL
 SHORT_PARA = 20                            # 连续三段不足该字数 -> FAIL
